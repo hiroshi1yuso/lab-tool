@@ -1,0 +1,41 @@
+% Shift-JIS CRLF 版
+\documentclass[a4paper,12pt]{jsreport}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{ascmac}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor} % 色付き表のサポート
+\usepackage{colortbl} % \rowcolorを使用可能にする
+\usepackage{adjustbox} % 表のサイズ調整用
+
+\titleformat{\chapter}[hang] % hang: タイトルを左揃えでぶら下げる
+  {\normalfont\LARGE\bfseries} % フォントスタイル: 通常フォント、大文字、太字
+  {第{\thechapter}章}
+  {1em} % 番号とタイトル間のスペース
+  {} % タイトルの前に追加する内容（今回は空）
+  {}
+\titlespacing*{\chapter}{0pt}{*4}{*2} % 左マージン, 前スペース, 後スペース
+
+\title{令和五年度　卒業論文\\
+        　\\
+        　\\
+        タイトルタイトルタイトル\\
+        タイトルタイトル\\
+        　\\
+        \large{hogehogehogehoge hoge hogehoge}}
+\date{}
+\author{
+        　\\
+        　\\
+        　\\
+        令和六年2月\\
+        　\\
+        　\\
+        大東京大学超工学部第千類超次元移動システムプログラム\\
+        ビックリ構造生物システム研究室\\
+        　\\
+        J576465　疲労　太郎
+        } %日付と著者名
+\begin{document}
+\maketitle
